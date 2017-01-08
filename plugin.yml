@@ -1,0 +1,12 @@
+plugin: MyHUD
+version: 1.0.0
+main: RTG\HUD\Loader
+api: 2.1.0
+author: IG
+commands:
+  myhud:
+    permission: myhud.toggle
+    description: "Toggles HUD!"
+permissions:
+  myhud.toggle:
+    default: op
